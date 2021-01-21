@@ -8,15 +8,14 @@ public class New {
 	{
 		for ( int i = 0; i < a ; i++)
 		{
-			System.out.println("Hello ㅠㅠ");
+			System.out.println("Hello");
 		}
 	}
-
-	New wow = new New();
-
-	wow.Hello(3);
-
-
+	public static void main(String[] args){
+		New wow = new New();
+		wow.Hello(3);
+		}
 
 }
+
 
